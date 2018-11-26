@@ -1,0 +1,76 @@
+[
+  {
+    "email": "admin@orangeshabushabu.com",
+    "password": "orangeshabushabu",
+    "first_name": "林",
+    "last_name": "大橘",
+    "nickname": "大橘管理者",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "o",
+    "groups": [11],
+    "roles":[2]
+  },
+  {
+    "email": "anna@orangeshabushabu.com",
+    "password": "orangeshabushabu",
+    "first_name": "林",
+    "last_name": "小橘",
+    "nickname": "安娜大橘",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "admin",
+    "groups": [11],
+    "roles":[2]
+  },
+
+  {
+    "email": "admin@extension1byorange.com",
+    "password": "extension1byorange",
+    "first_name": "dddd",
+    "last_name": "1",
+    "nickname": "小橘管理者",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "o",
+    "groups": [12],
+    "roles":[2]
+  },
+  {
+    "email": "anna@extension1byorange.com",
+    "password": "extension1byorange",
+    "first_name": "extension",
+    "last_name": "2",
+    "nickname": "安娜小橘",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "o",
+    "groups": [12],
+    "roles":[2]
+  },
+
+  {
+    "email": "admin@orangeshabu.com",
+    "password": "orangeshabu",
+    "first_name": "extension",
+    "last_name": "2",
+    "nickname": "集團管理者",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "o",
+    "groups": [10],
+    "roles":[2]
+  },
+  {
+    "email": "anna@orangeshabu.com",
+    "password": "orangeshabu",
+    "first_name": "extension",
+    "last_name": "2",
+    "nickname": "安娜集團",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "o",
+    "groups": [10],
+    "roles":[2]
+  }
+]

@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyPathRepository\Repositories\DummyType\DummySite\DummyRepository;
+use DummyParentNamespace;
+
+class DummyClass extends DummyFrontService
+{
+    protected $type = 'DummyModel';
+
+    public function __construct(DummyRepository $repo)
+    {
+        parent::__construct($repo);
+    }
+}

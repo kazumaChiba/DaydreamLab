@@ -1,0 +1,61 @@
+
+$subColor: #487193
+    
+html,body
+    font-family: "source-han-serif-tc", serif,標楷體,"PingFang TC",Arial,新細明體,serif , sans-serif
+    font-weight: 300
+    font-size: 14px
+    scroll-behavior: smooth
+    background-color: #fbfbfb
+    color: #131313
+
+a
+    color: #131313
+    transition: color .3s
+    cursor: pointer
+    &:hover
+        text-decoration: none
+        color: $subColor
+
+/*  */
+.class-hover
+    cursor: pointer
+    transition: color .3s
+    &:hover
+        color: $subColor
+.position-absolute 
+    &.fit
+        left: 0
+        top: 0
+.radius-100
+    border-radius: 100%
+
+/* 字顏色 */
+.text-subcolor
+    color: $subColor
+
+/* 字大小 */
+.main-title
+    font-size: 72px
+    font-weight: 700
+
+/* 樣式 */
+.arrow
+    position: relative
+    &:before , &:after
+        content: ''
+        position: absolute
+        width: calc(100% + 30px)
+        height: 2px
+        background: black
+        bottom: 0
+        left: 0
+    &:after
+        width: 20px
+        transform: rotate(45deg)
+        left: calc(100% + 12px)
+        bottom: 7px
+
+
+        
+    

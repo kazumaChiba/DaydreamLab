@@ -1,0 +1,38 @@
+[
+  {
+    "email": "admin@daydream-lab.com",
+    "password": "daydream5182",
+    "first_name": "Daydream Lab",
+    "last_name": "Admin",
+    "nickname": "Admin",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "admin",
+    "groups":[6],
+    "roles":[2]
+  },
+  {
+    "email": "jordan@daydream-lab.com",
+    "password": "daydream5182",
+    "first_name": "Tsai",
+    "last_name": "Jordan",
+    "nickname": "Jordan",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "jordan",
+    "groups":[6],
+    "roles":[2]
+  },
+  {
+    "email": "registered@daydream-lab.com",
+    "password": "daydream5182",
+    "first_name": "Registered",
+    "last_name": "Registered",
+    "nickname": "Registered",
+    "redirect": "/",
+    "activation": 1,
+    "activate_token": "Registered",
+    "groups":[4],
+    "roles":[2]
+  }
+]

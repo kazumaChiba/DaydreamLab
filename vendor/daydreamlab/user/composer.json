@@ -1,0 +1,32 @@
+{
+    "name": "daydreamlab/user",
+    "description": "DaydreamLab User",
+    "authors": [
+        {
+            "name": "Jordan Tsai",
+            "email": "jordan@daydream-lab.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/database/seeds"
+        ],
+        "psr-4": {
+            "DaydreamLab\\User\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "daydreamlab/jjaj": "dev-master",
+        "kalnoy/nestedset": "^v4.3.2",
+        "laravel/socialite": "^v3.1.1",
+        "laravel/passport": "^7.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DaydreamLab\\User\\UserServiceProvider"
+            ]
+        }
+    }
+}

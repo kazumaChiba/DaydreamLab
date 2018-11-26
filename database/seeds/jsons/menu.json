@@ -1,0 +1,125 @@
+[
+  {
+    "title"         : "主選單",
+    "alias"         : "orangeshabushabu-main-menu",
+    "path"          : "/orangeshabushabu-main-menu",
+    "state"         : 1,
+    "introimage"    : "",
+    "introtext"     : "",
+    "image"         : "",
+    "description"   : "",
+    "extension"     : "menu",
+    "access"        : 7,
+    "metadesc"      : "",
+    "metakeywords"  : "",
+    "extrafields"   : [],
+    "created_by"    : 4,
+    "children"      : [],
+    "menus"         : [
+      {
+        "title"         : "首頁",
+        "alias"         : "orangeshabushabu-home",
+        "path"          : "/orangeshabushabu-home",
+        "ordering"      : 1,
+        "state"         : 1,
+        "description"   : "",
+        "access"        : 7,
+        "language"      : "All",
+        "params"        : {"module_ids":[1,3,6]},
+        "created_by"    : 4,
+        "children"      : []
+      }
+    ]
+  },
+  {
+    "title"         : "主選單",
+    "alias"         : "extension1byorange-main-menu",
+    "path"          : "/extension1byorange-main-menu",
+    "state"         : 1,
+    "introimage"    : "",
+    "introtext"     : "",
+    "image"         : "",
+    "description"   : "",
+    "extension"     : "menu",
+    "access"        : 8,
+    "metadesc"      : "",
+    "metakeywords"  : "",
+    "extrafields"   : [],
+    "created_by"    : 6,
+    "children"      : [],
+    "menus"         : [
+      {
+        "title"         : "首頁",
+        "alias"         : "extension1byorange-home",
+        "path"          : "/extension1byorange-home",
+        "ordering"      : 1,
+        "state"         : 1,
+        "description"   : "",
+        "access"        : 8,
+        "language"      : "All",
+        "params"        : {"module_ids":[2,4,7,8]},
+        "created_by"    : 6,
+        "children"      : []
+      }
+    ]
+  },
+  {
+    "title"         : "主選單",
+    "alias"         : "orangeshabu-main-menu",
+    "path"          : "/orangeshabu-main-menu",
+    "state"         : 1,
+    "introimage"    : "",
+    "introtext"     : "",
+    "image"         : "",
+    "description"   : "",
+    "extension"     : "menu",
+    "access"        : 6,
+    "metadesc"      : "",
+    "metakeywords"  : "",
+    "extrafields"   : [],
+    "created_by"    : 8,
+    "children"      : [],
+    "menus"         : [
+      {
+        "title"         : "橘色體驗",
+        "alias"         : "orangeshabu-home",
+        "path"          : "/orangeshabu-home",
+        "ordering"      : 1,
+        "state"         : 1,
+        "description"   : "",
+        "access"        : 6,
+        "language"      : "All",
+        "params"        : {"module_ids":[5,11,12,13]},
+        "created_by"    : 8,
+        "children"      : []
+      },
+      {
+        "title"         : "關於橘色",
+        "alias"         : "orangeshabu-about",
+        "path"          : "/orangeshabu-about",
+        "ordering"      : 2,
+        "state"         : 1,
+        "description"   : "",
+        "access"        : 6,
+        "language"      : "All",
+        "params"        : {"module_ids":[9,10,15]},
+        "created_by"    : 8,
+        "children"      : []
+      },
+      {
+        "title"         : "橘色家庭",
+        "alias"         : "orangeshabu-family",
+        "path"          : "/orangeshabu-family",
+        "ordering"      : 4,
+        "state"         : 1,
+        "description"   : "",
+        "access"        : 6,
+        "language"      : "All",
+        "params"        : {"module_ids":[14]},
+        "created_by"    : 18,
+        "children"      : []
+      }
+    ]
+  }
+]
+

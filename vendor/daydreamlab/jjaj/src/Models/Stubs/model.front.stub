@@ -1,0 +1,16 @@
+<?php
+namespace DummyNamespace;
+
+use DummyParentNamespace;
+
+class DummyClass extends DummyFrontModel
+{
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'DummyTable';
+
+
+}

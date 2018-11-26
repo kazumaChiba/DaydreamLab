@@ -1,0 +1,96 @@
+[
+  {
+    "title": "菜單群組",
+    "created_by": 4,
+    "items": [
+      {
+        "title": "套餐組合",
+        "alias": "has_package",
+        "type": "boolean",
+        "required": 1,
+        "value": 0,
+        "params": {
+        },
+        "created_by": 4
+      },
+      {
+        "title": "版面",
+        "alias": "layout",
+        "type": "text",
+        "required": 0,
+        "value": "A",
+        "params": {
+        },
+        "created_by": 4
+      }
+    ]
+  },
+  {
+    "title": "菜單群組",
+    "created_by": 6,
+    "items": [
+      {
+        "title": "套餐組合",
+        "alias": "has_package",
+        "type": "boolean",
+        "required": 1,
+        "value": 0,
+        "params": {
+        },
+        "created_by": 6
+      }
+    ]
+  },
+  {
+    "title": "橘色歲月",
+    "created_by": 8,
+    "items": [
+      {
+        "title": "年份",
+        "alias": "year",
+        "type": "text",
+        "required": 1,
+        "value": "",
+        "params": {
+        },
+        "created_by": 8
+      },
+      {
+        "title": "月份",
+        "alias": "month",
+        "type": "text",
+        "required": 1,
+        "value": "",
+        "params": {
+        },
+        "created_by": 8
+      }
+    ]
+  },
+  {
+    "title": "橘色版圖",
+    "created_by": 8,
+    "items": [
+      {
+        "title": "聯絡我們",
+        "alias": "contact_us",
+        "type": "link",
+        "required": 1,
+        "value": "",
+        "params": {
+        },
+        "created_by": 8
+      },
+      {
+        "title": "線上預約",
+        "alias": "reservation",
+        "type": "link",
+        "required": 1,
+        "value": "",
+        "params": {
+        },
+        "created_by": 8
+      }
+    ]
+  }
+]
